@@ -1,0 +1,48 @@
+﻿@model List<Course>
+
+@{
+    ViewData["Title"] = "Instructor Dashboard";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Instructor Dashboard</h2>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <a href="/Courses/Create" class="btn btn-success mb-3">Create New Course</a>
+
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@course.Title</h5>
+                        <p class="card-text">@course.Description</p>
+                        <p><strong>Price:</strong> $@course.Price</p>
+
+                        <a href="/Courses/Details/@course.Id" class="btn btn-primary">View</a>
+                        <a href="/Courses/Edit/@course.Id" class="btn btn-warning">Edit</a>
+                        <form method="post" asp-action="Delete" class="d-inline">
+                            <input type="hidden" name="courseId" value="@course.Id">
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this course?');">
+                                Delete
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (!Model.Any())
+    {
+        <p>You have not created any courses yet.</p>
+    }
+</div>

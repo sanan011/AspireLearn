@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C1EF6D5-24B9-41CE-A369-509A8E2AA4E8}|AspireLearn\\AspireLearn.csproj|c:\\users\\azedunet\\source\\repos\\aspirelearn\\aspirelearn\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C1EF6D5-24B9-41CE-A369-509A8E2AA4E8}|AspireLearn\\AspireLearn.csproj|solutionrelative:aspirelearn\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|c:\\users\\azedunet\\source\\repos\\aspirelearn\\aspirelearnmvc\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|solutionrelative:aspirelearnmvc\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|c:\\users\\azedunet\\source\\repos\\aspirelearn\\aspirelearnmvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|solutionrelative:aspirelearnmvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|c:\\users\\azedunet\\source\\repos\\aspirelearn\\aspirelearnmvc\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|solutionrelative:aspirelearnmvc\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|c:\\users\\azedunet\\source\\repos\\aspirelearn\\aspirelearnmvc\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|solutionrelative:aspirelearnmvc\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|c:\\users\\azedunet\\source\\repos\\aspirelearn\\aspirelearnmvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|solutionrelative:aspirelearnmvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|c:\\users\\azedunet\\source\\repos\\aspirelearn\\aspirelearnmvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBB6351B-4627-4DF5-91C7-69E353AD2B75}|AspireLearnMVC\\AspireLearnMVC.csproj|solutionrelative:aspirelearnmvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearn\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AspireLearn\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearn\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AspireLearn\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:32:53.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AspireLearnMVC\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Services\\AuthService.cs",
+              "RelativeToolTip": "AspireLearnMVC\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:26:10.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AspireLearnMVC\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AspireLearnMVC\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwv0sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:47:39.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Views\\Courses\\Create.cshtml",
+              "RelativeDocumentMoniker": "AspireLearnMVC\\Views\\Courses\\Create.cshtml",
+              "ToolTip": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Views\\Courses\\Create.cshtml",
+              "RelativeToolTip": "AspireLearnMVC\\Views\\Courses\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T08:42:40.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "AspireLearnMVC\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "AspireLearnMVC\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T08:42:27.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "AspireLearnMVC\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "AspireLearnMVC\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T08:42:19.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "AspireLearnMVC\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\AzEduNet\\source\\repos\\AspireLearn\\AspireLearnMVC\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "AspireLearnMVC\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:42:09.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

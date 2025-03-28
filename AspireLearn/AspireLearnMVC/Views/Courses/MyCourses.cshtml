@@ -1,0 +1,39 @@
+﻿@model List<Course>
+
+@{
+    ViewData["Title"] = "My Courses";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">My Courses</h2>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@course.Title</h5>
+                        <p class="card-text">@course.Description</p>
+                        <p><strong>Price:</strong> $@course.Price</p>
+
+                        <a href="/Courses/Details/@course.Id" class="btn btn-primary">View Course</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (!Model.Any())
+    {
+        <p>You are not enrolled in any courses yet.</p>
+    }
+</div>

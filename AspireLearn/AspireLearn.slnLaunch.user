@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AspireLearn\\AspireLearn.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AspireLearnMVC\\AspireLearnMVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

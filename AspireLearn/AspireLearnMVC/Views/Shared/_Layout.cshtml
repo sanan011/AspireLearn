@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"] - AspireLearn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        /* ✅ Ensure the footer stays at the bottom */
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- ✅ Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">AspireLearn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Courses/Index">All Courses</a>
+                    </li>
+                    @if (Context.Session.GetString("UserRole") == "Student")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Courses/MyCourses">My Courses</a>
+                        </li>
+                    }
+                    @if (Context.Session.GetString("UserRole") == "Instructor")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Courses/InstructorDashboard">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Courses/Create">Create Course</a>
+                        </li>
+                    }
+                </ul>
+                <ul class="navbar-nav">
+                    @if (string.IsNullOrEmpty(Context.Session.GetString("AuthToken")))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Auth/Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Auth/Register">Register</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <form method="post" action="/Auth/Logout">
+                                <button type="submit" class="btn btn-outline-light">Logout</button>
+                            </form>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ✅ Main Content -->
+    <div class="container content mt-4">
+        @RenderBody()
+    </div>
+
+    <!-- ✅ Footer (Sticky to Bottom) -->
+    <footer class="footer">
+        &copy; 2025 AspireLearn. All Rights Reserved.
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
